@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# Data files (too large for GitHub — see data/README_data.md)
+data/*.csv
+data/skab/
+data/nab_yahoo_s5/
+data/ton_iot_sensor.csv
+
+# Generated outputs
+results/*.csv
+figures/*.png
+figures/*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# TensorFlow / model checkpoints
+*.h5
+*.pkl
+*.joblib
+saved_models/
